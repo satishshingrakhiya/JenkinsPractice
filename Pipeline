@@ -1,0 +1,29 @@
+pipeline {
+
+    agent any
+
+    stages{
+
+        stage('Build'){
+
+            steps{
+
+                echo "build first pipeline project"
+
+            }
+
+        }
+
+        stage('testing'){
+
+            steps{
+
+                echo "testing first project"
+
+            }
+
+        }
+
+    }
+
+}
